@@ -11,7 +11,9 @@
     "prestart-production": "bower cache clean && bower install && gulp build && npm run build-production",
     "start-production": "node pm2Start",
     "lint": "eslint --ext=.js,.jsx .",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "contributors": [
@@ -105,7 +107,8 @@
     "uglify-js": "~2.4.15",
     "validator": "~3.22.1",
     "webpack": "^1.9.12",
-    "yui": "~3.18.1"
+    "yui": "~3.18.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-eslint": "^3.1.7",
@@ -130,5 +133,6 @@
     "multiline": "~1.0.1",
     "supertest": "~0.15.0",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "snyk": true
 }
