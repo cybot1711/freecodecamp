@@ -27,7 +27,7 @@
   "dependencies": {
     "accepts": "~1.2.5",
     "async": "~0.9.0",
-    "babel": "5.6.14",
+    "babel": "6.0.0",
     "babel-core": "5.6.15",
     "babel-eslint": "^4.0.5",
     "babel-loader": "5.2.2",
@@ -104,7 +104,7 @@
     "twit": "~1.1.20",
     "uglify-js": "~2.4.15",
     "validator": "~3.22.1",
-    "webpack": "^1.9.12",
+    "webpack": "^2.2.0",
     "yui": "~3.18.1"
   },
   "devDependencies": {
