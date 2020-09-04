@@ -95,7 +95,7 @@
     "react-motion": "~0.1.0",
     "react-router": "https://github.com/BerkeleyTrue/react-router#freecodecamp",
     "react-vimeo": "^0.0.3",
-    "request": "~2.53.0",
+    "request": "~2.76.0",
     "rx": "^2.5.3",
     "sanitize-html": "~1.6.1",
     "source-map-support": "^0.3.2",
